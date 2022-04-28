@@ -1,0 +1,19 @@
+<form>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-12 col-md-7">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" placeholder="Insira seu nome" formControlName="nome"/>
+      </div>
+      <div class="col-12 col-md-3"><label for="cpf">CPF:</label>
+        <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00" formControlName="cpf"/>
+        <small id="emailHelp" class="form-text text-muted">Informe somente números</small>
+      </div>
+      <div class="col-12 col-md-2"><label for="idade">Idade:</label>
+        <input type="text" class="form-control" id="idade" placeholder="18" formControlName="idade"/>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>

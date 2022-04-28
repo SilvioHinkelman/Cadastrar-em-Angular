@@ -1,0 +1,21 @@
+nav {
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+}
+
+nav .nav-link {
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+nav .nav-link .material-icons {
+  vertical-align: text-bottom;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+nav .nav-link:hover {
+  background-color: #464646;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=options.component.css.map */

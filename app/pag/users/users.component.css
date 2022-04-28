@@ -1,0 +1,14 @@
+form {
+  margin: 3rem auto;
+  max-width: 50rem;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form button {
+  float: right;
+  margin-top: 25px;
+}
+/*# sourceMappingURL=users.component.css.map */

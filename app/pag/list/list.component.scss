@@ -1,0 +1,11 @@
+div {
+  margin: 3rem auto;
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  .example-card {
+    background-color: rgb(87, 165, 253);
+    box-shadow: 1px 2px 7px 1px #ADADAD;
+    margin: 10px;
+  }
+}
